@@ -1,0 +1,25 @@
+.header-navbar {
+    display: grid;
+    align-items: center;
+    /* total width - 750rpx - 2 * 28rpx = 694rpx */
+    padding: 0 28rpx;
+    grid-template-columns: 150rpx 394rpx 150rpx;
+  }
+  
+  .header-navbar .nav-item__title {
+    grid-column-start: 2;
+    justify-self: center;
+    font-size: 32rpx;
+    font-weight: 500;
+  }
+  
+  .header-navbar .nav-item-btn-group {
+    grid-column-start: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item-btn-group .nav-item__btn {
+    padding-right: 20rpx;
+  }
